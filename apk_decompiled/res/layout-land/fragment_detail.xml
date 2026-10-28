@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/bg_dialog" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textColor="#ffffffff" android:id="@id/detail_bt_set" android:background="@drawable/bg_bt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="4.0dip" android:text="Set Theme" android:layout_alignParentBottom="true" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/detail_bt_set">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:id="@id/detail_fl_loading" android:layout_width="fill_parent" android:layout_height="120.0dip">
+                <ProgressBar android:layout_gravity="center" android:layout_width="48.0dip" android:layout_height="48.0dip" android:indeterminate="true" style="@android:style/Widget.ProgressBar.Large" />
+            </FrameLayout>
+            <com.rey.torquetheme.ResizableImageView android:id="@id/detail_iv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="4.0dip" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

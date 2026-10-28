@@ -1,0 +1,34 @@
+version: 2.9.3
+apkFileName: torque-theme-1-4.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+  tag: null
+sdkInfo:
+  minSdkVersion: 8
+  targetSdkVersion: 17
+packageInfo:
+  forcedPackageId: 127
+  renameManifestPackage: null
+versionInfo:
+  versionCode: 5
+  versionName: 1.4
+resourcesAreCompressed: false
+sharedLibrary: false
+sparseResources: false
+doNotCompress:
+- resources.arsc
+- assets/theme1.zip
+- assets/theme10.zip
+- assets/theme11.zip
+- assets/theme12.zip
+- assets/theme2.zip
+- assets/theme3.zip
+- assets/theme4.zip
+- assets/theme5.zip
+- assets/theme6.zip
+- assets/theme7.zip
+- assets/theme8.zip
+- assets/theme9.zip
+- png

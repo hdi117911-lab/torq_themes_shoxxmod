@@ -1,0 +1,18 @@
+# Dial main settings, more will be added upon request for particular setting(s)
+dialTickInnerRadius=1.50
+dialTickOuterRadius=1.55
+dialNeedleLength=1.20
+hideTicks_<pid>=false 
+globalHideTicks=false
+globalTextRadius=
+
+globalFontScale=.7
+
+
+
+displayTextValueColour=#E67B00
+displayTextTitleColour=#00B9B9
+displayTickColour=#D57A00
+displayIndicatorColour=#00D1C8
+globalDialStartAngle=45
+globalDialStopAngle=45

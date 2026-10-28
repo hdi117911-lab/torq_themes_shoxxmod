@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppBaseTheme" parent="@android:style/Theme.Light" />
+    <style name="AppTheme" parent="@style/AppBaseTheme" />
+    <style name="Theme.PageIndicatorDefaults" parent="@android:style/Theme">
+        <item name="vpiIconPageIndicatorStyle">@style/Widget.IconPageIndicator</item>
+        <item name="vpiTabPageIndicatorStyle">@style/Widget.TabPageIndicator</item>
+    </style>
+    <style name="Widget" />
+    <style name="Widget.TabPageIndicator" parent="@style/Widget">
+        <item name="android:textAppearance">@style/TextAppearance.TabPageIndicator</item>
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/vpi__tab_indicator</item>
+        <item name="android:paddingLeft">22.0dip</item>
+        <item name="android:paddingTop">12.0dip</item>
+        <item name="android:paddingRight">22.0dip</item>
+        <item name="android:paddingBottom">12.0dip</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    <style name="TextAppearance.TabPageIndicator" parent="@style/Widget">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/vpi__dark_theme</item>
+    </style>
+    <style name="Widget.IconPageIndicator" parent="@style/Widget">
+        <item name="android:layout_marginLeft">6.0dip</item>
+        <item name="android:layout_marginRight">6.0dip</item>
+    </style>
+    <style name="fileChooserName">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_marginLeft">@dimen/list_item_padding</item>
+        <item name="android:layout_marginRight">@dimen/list_item_padding</item>
+        <item name="android:maxLines">2</item>
+    </style>
+    <style name="fileChooserIcon">
+        <item name="android:layout_marginLeft">@dimen/list_item_padding</item>
+    </style>
+    <style name="CustomTitlePageIndicator">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ff0099ff</item>
+        <item name="android:background">#ff000000</item>
+        <item name="selectedColor">#ff0099ff</item>
+        <item name="footerColor">#ff0099ff</item>
+        <item name="footerLineHeight">2.0dip</item>
+        <item name="footerIndicatorStyle">underline</item>
+        <item name="footerIndicatorHeight">4.0dip</item>
+        <item name="footerIndicatorUnderlinePadding">32.0dip</item>
+        <item name="footerPadding">6.0dip</item>
+        <item name="linePosition">bottom</item>
+        <item name="selectedBold">true</item>
+        <item name="titlePadding">32.0sp</item>
+        <item name="topPadding">8.0sp</item>
+    </style>
+</resources>

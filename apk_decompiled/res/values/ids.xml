@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="main_fl_container" />
+    <item type="id" name="explorer_fragment" />
+    <item type="id" name="color_tv_message" />
+    <item type="id" name="color_cp" />
+    <item type="id" name="color_svb" />
+    <item type="id" name="color_v_divider" />
+    <item type="id" name="color_ll_bt" />
+    <item type="id" name="color_bt_cancel" />
+    <item type="id" name="color_bt_ok" />
+    <item type="id" name="file_icon" />
+    <item type="id" name="file_name" />
+    <item type="id" name="detail_fl_loading" />
+    <item type="id" name="detail_iv" />
+    <item type="id" name="detail_bt_set" />
+    <item type="id" name="list_gv" />
+    <item type="id" name="main_titles" />
+    <item type="id" name="main_pager" />
+    <item type="id" name="properties_bt_save" />
+    <item type="id" name="properties_iv_text_color" />
+    <item type="id" name="properties_iv_text_title_color" />
+    <item type="id" name="properties_iv_tick_color" />
+    <item type="id" name="properties_iv_indicator_color" />
+    <item type="id" name="properties_et_inner_radius" />
+    <item type="id" name="properties_et_outer_radius" />
+    <item type="id" name="properties_et_font_scale" />
+    <item type="id" name="properties_et_text_radius" />
+    <item type="id" name="properties_cb_hide_tick" />
+    <item type="id" name="properties_et_start_angle" />
+    <item type="id" name="properties_et_stop_angle" />
+    <item type="id" name="properties_bt_font" />
+</resources>
